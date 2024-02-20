@@ -1,0 +1,298 @@
+#box {
+  width:100px;
+  z-index:10;
+  position:relative;  
+  margin-bottom: 5px;
+  
+}
+
+#btn {
+  background-color: #808080; /* Green */
+  border: 1px solid rgb(202, 202, 202);
+  
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 250px;
+  display: block;
+  margin: auto;
+  align:center;
+
+  
+}
+
+#btn:hover{
+  opacity: 2;
+  background-color: rgb(75, 74, 74);
+}
+
+input[type=text] {
+  background-color: #808080; /* Green */
+  border: 1px solid rgb(202, 202, 202);
+  color: #dcdcdc;;
+ 
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  
+}
+
+input[type=text]:focus {
+  width: 187%;
+}
+input[type=text]:hover
+  {
+    opacity: 2;
+    background-color: rgb(75, 74, 74);
+
+  }
+
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #858585;
+  color: white;
+  font-size: 15px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  height: 40px;
+}
+  td { align: center}
+
+  table { border: 0;
+  cellspacing: 2;
+  cellpadding: 5;
+  width: auto;
+  height:auto;
+  align: center;
+  text-align: center ;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  
+  }
+
+body {
+    background-color: rgba(204, 204, 204, 0.849);
+    
+  }
+  h1 {
+    color: rgb(2, 2, 2);
+    margin: auto;
+    text-align: center;
+    
+    
+  }
+  h2 {
+    color: rgb(2, 2, 2);
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  h3 {
+      color: rgb(2, 2, 2);
+      margin: auto;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+   .content{
+    color: rgb(2, 2, 2);
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    
+    
+        
+  }
+
+  p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: auto;
+    width:unset;
+  
+    align:center;
+    text-align:initial;
+
+  }
+
+.tab {
+  display: inline-block;
+  margin-left: 140px;
+}
+
+.tab1 {
+    display: inline-block;
+    margin-left: 160px;
+}
+.tab2 {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+
+
+  
+  input[type=submit]
+  {
+      background-color: #808080; /* Green */
+      border: 1px solid rgb(202, 202, 202);
+      color: white;
+      padding: 25px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      width: 250px;
+      display: block;
+      margin: auto;
+      
+    
+  
+  }
+  
+  
+  input[type=submit]:hover
+  {
+    opacity: 2;
+    background-color: rgb(75, 74, 74);
+
+  }
+  
+  
+  
+  .btn-group .table {
+    background-color: #808080; /* Green */
+    border: 1px solid rgb(202, 202, 202);
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .btn-group .button2 {
+    background-color: #808080; /* Green */
+    border: 1px solid rgb(202, 202, 202);
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    
+  }
+
+  .btn-group .button3 {
+    background-color: #808080; /* Green */
+    border: 1px solid rgb(202, 202, 202);
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .btn-group .button4 {
+    background-color: #808080; /* Green */
+    border: 1px solid rgb(202, 202, 202);
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .btn-group .button1:hover {
+    background-color: #0f516b;
+  }
+
+  .btn-group .button2:hover {
+    background-color: #c29f77;
+  }
+
+  .btn-group .button3:hover {
+    background-color: #2c4385;
+  }
+
+  .btn-group .button4:hover {
+    background-color: #0f43eee7;
+  }
+
+
+  .dropbtn {
+      background-color: #808080; /* Green */
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #808080;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+     
+      
+    }
+    
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #707070;}
